@@ -29,12 +29,12 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
             this.leftBorderButton4 = new LeftBorderButtonDemo.LeftBorderButton();
             this.leftBorderButton3 = new LeftBorderButtonDemo.LeftBorderButton();
             this.leftBorderButton2 = new LeftBorderButtonDemo.LeftBorderButton();
             this.leftBorderButton1 = new LeftBorderButtonDemo.LeftBorderButton();
+            this.button1 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -50,32 +50,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(200, 450);
             this.panel1.TabIndex = 0;
-            // 
-            // button1
-            // 
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(774, 2);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(22, 22);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "X";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.Button1_Click);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Open Sans", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.label1.Location = new System.Drawing.Point(293, 175);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(429, 78);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "Developed by Nafiz Fuad Siam\r\nversion 1.0.0.0\r\n";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label1.Visible = false;
             // 
             // leftBorderButton4
             // 
@@ -140,6 +114,32 @@
             this.leftBorderButton1.Text = "DemoButton";
             this.leftBorderButton1.UseVisualStyleBackColor = false;
             this.leftBorderButton1.Click += new System.EventHandler(this.LeftBorderButton1_Click);
+            // 
+            // button1
+            // 
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(774, 2);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(22, 22);
+            this.button1.TabIndex = 1;
+            this.button1.Text = "X";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.Button1_Click);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Open Sans", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.label1.Location = new System.Drawing.Point(293, 175);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(429, 78);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "Developed by Nafiz Fuad Siam\r\nversion 1.0.0.0\r\n";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label1.Visible = false;
             // 
             // Form1
             // 
